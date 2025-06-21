@@ -1,5 +1,5 @@
 <p style= "text-align: center">
-  <img src="https://media.licdn.com/dms/image/v2/D5603AQGfTdhG1b_QLA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725032672235?e=1755734400&v=beta&t=I2xz_hRP5Tys4QdLMaBZOA7rblj9GLGnWl8DraERgyg" alt="My Image" width="180" style="border-radius: 50%; border: 2px solid white"/>
+  <img src="https://media.licdn.com/dms/image/v2/D5603AQGfTdhG1b_QLA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725032672235?e=1755734400&v=beta&t=I2xz_hRP5Tys4QdLMaBZOA7rblj9GLGnWl8DraERgyg" alt="My Image" width="180" style="border-radius: 50%; border: 3px solid skyblue"/>
 </p>
 
 <h1 style="text-align: center">Sergei Efremenko</h1>
@@ -55,11 +55,11 @@ function datingRange(age){   if (age > 14) {return `${Math.floor((age / 2) + 7)}
 ---
 <h3 style="text-align: center; color: skyblue">Education and Courses</h3>
 
- **Minsk State Linguistic University (MSLU)** | *Foreign Languages, Literatures, and Linguistics (2017 - 2022)*
+ **Minsk State Linguistic University (MSLU)** *Foreign Languages, Literatures, and Linguistics (2017 - 2022)*
 
  **Courses:**  
- 1. Responsive Web Design | Free Code Camp ([Certificate Link](https://freecodecamp.org/certification/w24b/responsive-web-design))  
- 2. Git and GitHub basics | Udemy ([Certificate Link](https://www.udemy.com/certificate/UC-061a8721-3818-428d-9f88-b6db1edf5495/))
+ 1. Responsive Web Design  Free Code Camp ([Certificate Link](https://freecodecamp.org/certification/w24b/responsive-web-design))  
+ 2. Git and GitHub basics  Udemy ([Certificate Link](https://www.udemy.com/certificate/UC-061a8721-3818-428d-9f88-b6db1edf5495/))
 
  ---
  <h3 style="text-align: center; color: skyblue">Languages</h3>
