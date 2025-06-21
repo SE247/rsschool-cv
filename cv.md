@@ -28,5 +28,20 @@ I have 2.5 years of experience in web research and a good understanding of compu
 * **Web research**
 
 ---
-<h3 style="text-align: center; color: skyblue">Code examples</h3>
+<h3 style="text-align: center; color: skyblue">Code examples (CodeWars)</h3>
+
+***Simple calculator***:
+```js
+function calculator(a,b,sign){
+  if ((typeof a) === 'number' && (typeof b) === 'number' && sign === "+") return a + b
+  else if ((typeof a) === 'number' && (typeof b) === 'number' && sign == '/') return a / b
+  else if ((typeof a) === 'number' && (typeof b) === 'number' && sign == '-') return a - b
+  else if ((typeof a) === 'number' && (typeof b) === 'number' && sign == '*') return a * b
+  else return 'unknown value';
+}
+```
+***Age Range Compatibility Equation:***
+```js
+function datingRange(age){   if (age > 14) {return `${Math.floor((age / 2) + 7)}-${Math.floor(2 * (age - 7))}`}   else return `${Math.floor(age - (0.10 * age))}-${Math.floor(age + (0.10 * age))}`; }
+```
 
