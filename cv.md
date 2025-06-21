@@ -1,5 +1,3 @@
-<section style="background-color: #141414; padding: 30px">
-
 <p style= "text-align: center">
   <img src="https://media.licdn.com/dms/image/v2/D5603AQGfTdhG1b_QLA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725032672235?e=1755734400&v=beta&t=I2xz_hRP5Tys4QdLMaBZOA7rblj9GLGnWl8DraERgyg" alt="My Image" width="180" style="border-radius: 50%; border: 2px solid white"/>
 </p>
@@ -69,4 +67,3 @@ function datingRange(age){   if (age > 14) {return `${Math.floor((age / 2) + 7)}
  1. English (C2, [EFSET Certitficate Link](https://cert.efset.org/rTJdqc))
  2. Japanese (N2, [JLPT Certificate Link](https://media.licdn.com/dms/image/v2/D562DAQG8OxO3CAAUOA/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1732824473450?e=1751148000&v=beta&t=B0DASDzhy1OvoYudHrS2omlQzbXhIS5fIixxszViqI0))
 
- </section>
