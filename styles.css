@@ -92,7 +92,8 @@ header {
 .contact-links {
     display: flex;
     justify-content: flex-start;
-    gap: 1.1rem;
+    gap: 12px;
+    align-items: space-between;
 
 }
 
@@ -158,7 +159,24 @@ h2 {
     border-color: #10A37F;
 }
 
-.experience ul, li {
+.progress-en {
+    background: linear-gradient(60deg, #5e81ac 0% 80%, transparent 80%);
+    border-color: #5e81ac;
+}
+
+.progress-jp {
+    background: linear-gradient(60deg, #5e81ac 0% 60%, transparent 60%);
+    border-color: #5e81ac;
+}
+
+.languages a {
+    color: #10A37F;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.experience ul,
+.experience li {
 list-style: none;
 
 display: flex;
@@ -190,6 +208,21 @@ h1 {
     }
 }
 
+.main-name,
+.spec,
+.courses li {
+    font-family: var(--main-font);
+    font-size: 19px;
+}
+
+.main-name {
+    font-weight: 600;
+}
+
+.spec {
+    font-style: italic;
+}
+
 footer {
     display: flex;
     flex-direction: row;
@@ -212,7 +245,8 @@ font-family: var(--main-font);
 font-size: 20px;
 }
 
-footer a {
+footer a,
+section a {
     text-decoration: none;
 
     color: #10A37F;
