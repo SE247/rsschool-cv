@@ -57,7 +57,46 @@
         </div>
     </div>
     <hr>
+    <div class="code-section">
+        <h2>Code examples (CodeWars)</h2>
+        <details>
+            <summary>
+                Simple calculator
+            </summary>
+            <code>
+                function calculator(a,b,sign){
+  if ((typeof a) === 'number' && (typeof b) === 'number' && sign === "+") return a + b
+  else if ((typeof a) === 'number' && (typeof b) === 'number' && sign == '/') return a / b
+  else if ((typeof a) === 'number' && (typeof b) === 'number' && sign == '-') return a - b
+  else if ((typeof a) === 'number' && (typeof b) === 'number' && sign == '*') return a * b
+  else return 'unknown value';
+}
+            </code>
+        </details>
+        <details>
+            <summary>
+                Age Range Compatibility Equation
+            </summary>
+            <code>
+function datingRange(age){   if (age > 14) {return `${Math.floor((age / 2) + 7)}-${Math.floor(2 * (age - 7))}`}   else return `${Math.floor(age - (0.10 * age))}-${Math.floor(age + (0.10 * age))}`; }
+            </code>
+        </details>
+    </div>
+<hr>
+    <div class="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li><img src="/rsschool-cv/cv-icons/1676630692336.jpg" alt="">Web content manager Claro data solutions (Feb 2023 - Present)</li>
+            <li><img src="/rsschool-cv/cv-icons/craft_machine_logo.jpg" alt="">Web content manager CraftMachine LLC (Sep 2022 - Jan 2023)</li>
+            <li><img src="/rsschool-cv/cv-icons/ctv.jpg" alt="">Technical documentation and internal correspondence translator Capital Television (CTV) (Internship: Jan 2022 - Feb 2022)</li>
+        </ul>
+    </div>
  </section>
- <footer></footer>
+
+ <footer>
+    <div class="link-container"><a href="https://rs.school/courses/javascript-ru"><img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/f2681bd64b6710f73e22d1861ace41dfba6dc501/tasks/cv/rs-school-logo.svg" alt="" style="height: 100px;"></a></div>
+    
+    <p>Project completed by Sergei Efremenko (<a href="https://github.com/SE247">GitHub Link</a>), 2025</p>
+ </footer>
 </body>
 </html>
