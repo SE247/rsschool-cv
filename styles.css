@@ -35,12 +35,12 @@ header {
     max-width: calc(1000px - 235px - 13px - 2.3px);
 }
 
-section, footer {
+main, footer {
     max-width: 1000px;
     min-width: 750px;
 }
 
-.head-image, header, section, footer {
+.head-image, header, main, footer {
     border: 2.3px #4c566a solid;
     display: block;
     border-radius: 5px;
@@ -97,7 +97,7 @@ header {
 
 }
 
-section {
+main {
 height: auto;
 /* color and background */
 background: url(/rsschool-cv/cv-img/photo-1584531979583-18c5c4b25efc.avif);
@@ -111,6 +111,7 @@ h2 {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
     font-size: 33px;
+    padding-bottom: 1.2em;
 }
 
 .skills i {
