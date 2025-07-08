@@ -246,6 +246,10 @@ font-family: var(--main-font);
 font-size: 20px;
 }
 
+.link-image {
+    height: 100px;
+}
+
 footer a,
 section a {
     text-decoration: none;
